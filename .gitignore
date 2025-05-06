@@ -1,0 +1,6 @@
+# Ignore all files without extension (common for Linux executables)
+*.*
+
+# But allow known C source files
+!*.c
+!*.h
