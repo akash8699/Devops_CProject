@@ -1,12 +1,9 @@
 #include<stdio.h>
-int main()
+void find_biggest(int a, int b , int c)
 {
-   int a,b,c;
-   int bigest=0;
-   printf("Enter the Three Numbers: \n");
-   scanf("%d %d %d", &a, &b, &c);
-
-   bigest=a;
+   
+   
+  int  bigest=a;
    if(bigest< b)
    {
       bigest=b;
@@ -18,5 +15,4 @@ int main()
 
    printf("The bigest of three numbers %d %d %d is %d\n", a, b, c, bigest);
 
-   return 0;
 }

@@ -1,11 +1,8 @@
 #include<stdio.h>
-int main()
+void  check_palindrome(int num)
 {
-  int num, reversed=0, rem, original;
-  printf("Enter a Number: ");
-  scanf("%d",&num);
+  int original=num, reversed=0, rem;
 
-  original=num;
 
   while(num!=0)
   {
@@ -21,6 +18,5 @@ int main()
   {
 	  printf("%d is not a palindrome.\n",original);
   }
-  return 0;
 }
 
