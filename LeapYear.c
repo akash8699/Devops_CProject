@@ -6,7 +6,6 @@ int main(int argc, char *argv[]) {
         printf("Usage: %s <year>\n", argv[0]);
         return 1;
     }
-
     int year = atoi(argv[1]);
 
     if (year <= 0) {
