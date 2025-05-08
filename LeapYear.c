@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//This program is to find leap yaer
+//This program is to find leap year
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         printf("Usage: %s <year>\n", argv[0]);
