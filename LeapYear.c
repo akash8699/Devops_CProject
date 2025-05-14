@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<string.h>
 //This program is to Find Leap Year
 int main(int argc, char *argv[]) {
     if (argc != 2) {
